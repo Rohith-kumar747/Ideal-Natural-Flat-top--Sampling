@@ -1,4 +1,4 @@
-# Ideal, Natural, & Flat-top -Sampling
+# Exp 1 Ideal, Natural, & Flat-top -Sampling
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
@@ -25,7 +25,7 @@ xr = resample(xs, len(t))
 
 # Plot
 plt.figure(figsize=(10,8))
-plt.suptitle("NAME : RITHISH\nREG NO : 212224060216",
+plt.suptitle("NAME : ROHITH KUMAR GD\nREG NO : 212224060220",
              fontsize=12, fontweight='bold')
 
 plt.subplot(3,1,1)
@@ -74,7 +74,7 @@ rec = lfilter(b, a, nat)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME : RITHISH S\nREG NO : 212224060216",
+plt.suptitle("NAME : ROHITH KUMAR GD\nREG NO : 212224060220",
              fontsize=12, fontweight='bold')
 
 plt.subplot(4,1,1)
@@ -127,7 +127,7 @@ recon = lfilter(b, a, flat)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME : RITHISH S\nREG NO : 212224060216",
+plt.suptitle("NAME : ROHITH KUMAR GD\nREG NO : 212224060220",
              fontsize=12, fontweight='bold')
 
 plt.subplot(4,1,1)
@@ -152,13 +152,14 @@ plt.show()
 
 # Output Waveform
 # Ideal Sampling:
-<img width="988" height="742" alt="one" src="https://github.com/user-attachments/assets/6029e1fa-70ad-44d6-b748-6e21f852afe4" />
+<img width="1229" height="972" alt="image" src="https://github.com/user-attachments/assets/fc2118a4-123e-48b0-af28-c740d785e97e" />
 
 # Natural Sampling:
-<img width="981" height="829" alt="two" src="https://github.com/user-attachments/assets/f2c737fc-2915-4cd6-b7ce-be3c6e9fba43" />
+<img width="1220" height="1098" alt="image" src="https://github.com/user-attachments/assets/6071d4fa-13aa-49f4-874c-7ede6970b0c4" />
+
 
 # Flat-top -Sampling:
-<img width="981" height="829" alt="three" src="https://github.com/user-attachments/assets/c5c500de-62d3-405f-9c26-f39c334d78c0" />
+<img width="1218" height="1106" alt="image" src="https://github.com/user-attachments/assets/a5cc6106-6d4b-4369-a599-b60dccf0bfe8" />
 
 
 # Results
